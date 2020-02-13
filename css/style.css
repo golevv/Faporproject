@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Regular.eot');
+    src: url('../font/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/OpenSans-Regular.woff2') format('woff2'),
+    url('../font/OpenSans-Regular.woff') format('woff'),
+    url('../font/OpenSans-Regular.ttf') format('truetype'),
+    url('../font/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway-Bold.eot');
+    src: url('../font/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/Raleway-Bold.woff2') format('woff2'),
+    url('../font/Raleway-Bold.woff') format('woff'),
+    url('../font/Raleway-Bold.ttf') format('truetype'),
+    url('../font/Raleway-Bold.svg#Raleway-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{ background-color: #24282f;
+    padding-top: 29px}
+.container{
+    max-width: 1093px;
+    margin: auto;
+}
+.logo{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li{
+    display: inline-block;
+    float: right;
+    margin-left: 46px;
+    padding-top: 3px;
+    padding-bottom: 33px;
+}
+.container:after, header nav ul:after, .details:after, .central_footer:after, .content:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header nav ul li a{
+    color: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    padding: 0px 11px;
+}
+
+header nav ul li:after{
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+    bottom: -37px;
+
+}
+header nav ul li:hover:after{
+    background-color: #b5a263;
+}
+
+.about_as{
+    background-image: url(../images/test_light_02.png);
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 84px;
+}
+.top_block{
+    max-width: 1076px;
+    margin: auto;
+}
+.title{
+    font-size: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    margin-bottom: 20px;
+}
+.design_studio{
+    font-size: 11px;
+    color: #ffffff;
+    line-height: 19px;
+    font-family: 'Open Sans';;
+}
+h2{
+    font-size: 19px;
+    color: #24282f;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+h2:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: #b5a263;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 26px;
+}
+
+.Management{
+    padding-top: 118px;
+    padding-bottom: 23px;
+}
+.Management .container{
+    max-width: 880px;
+}
+.Management .user{
+    display: inline-block;
+    float: left;
+    margin-right: 71px;
+    margin-bottom: 33px;
+
+}
+.Management .user:last-of-type{
+    float: right;
+    margin-right: 0px;
+}
+.Management .user img{
+    width: 100%;
+    max-width: 246px;
+    display: block;
+    margin-bottom: 22px;
+}
+.Management .user .details h3{
+    float: left;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 500;
+    color: #232323;
+
+}
+.Management .user .details .soc{
+    float: right;
+}
+.Management .user .details h3 span{
+    display: block;
+    font-size: 11px;
+    color: #b5a263;
+    font-family: "Open Sans";
+    text-transform: none;
+}
+.Management .user .details .soc{
+    background-color: #dedede;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.management .user .details .soc{
+    background-color: #dedede;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 5px;
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+
+}
+
+
+.Management .user .details .soc.facebook:before{
+    content: "\f39e";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+
+}
+
+.Management .user .details .soc.twitter:before{
+    content: "\f099";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+
+}
+.Management .user .details .soc.google:before{
+    content: "\f0d5";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+
+}
+.bottom_panel{
+    background-color: #2b2f35;
+    padding-top: 62px;
+}
+.bottom_panel .central_footer{
+    max-width: 895px;
+    margin: auto;
+}
+.bottom_panel .central_footer h4{
+    font-size: 11px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #b5a263;
+    margin-bottom: 26px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.bottom_panel .central_footer p{
+    font-size: 11px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #6e7279;
+    line-height: 20px;
+}
+.bottom_panel .central_footer form{
+    font-size: 11px;
+    color: #6e7279;
+}
+.bottom_panel .central_footer form input{
+    display: block;
+    width: 237px;
+    height: 30px;
+    box-sizing: border-box;
+    background: #2b2f35;
+    border: 1px solid #5f6369;
+    margin-bottom: 8px;
+}
+.bottom_panel .central_footer form button{
+    background: #b5a263;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 237px;
+    height: 30px;
+    border: none;
+}
+.central_footer .info{
+    display: inline-block;
+    float: left;
+    margin-right: 137px;
+    max-width: 231px;
+    margin-bottom: 50px;
+}
+.central_footer .info:last-of-type{
+    float: right;
+    margin-right: 0px;
+}
+.central_footer .info .probel{
+    margin-bottom: 24px;
+}
+.footer2{
+    background: #24282f;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #42464c;
+}
+.footer2 .content{
+    max-width: 895px;
+    margin: auto;
+}
+.footer2 .content p{
+    font-size: 9px;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    color: #6e7279;
+    display: block;
+    margin-top: 12px;
+    float: left;
+}
+.footer2 .content .soc{
+    background: #24282f;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #6e7279;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 5px;
+    text-decoration: none;
+    float: right;
+}
+
+.footer2 .content .soc.facebook:before{
+    content: "\f39e";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: #6e7279;
+    font-style: normal;
+    font-variant: normal;
+}
+.footer2 .content .soc.twitter:before{
+    content: "\f099";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: #6e7279;
+    font-style: normal;
+    font-variant: normal;
+}
+.footer2 .content .soc.google:before{
+    content: "\f0d5";
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 12px;
+    color: #6e7279;
+    font-style: normal;
+    font-variant: normal;
+}
+.footer2 .content .soc.dribbble{
+    background: #b5a263;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    line-height: 28px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.footer2 .content .soc.dribbble:before{
+    content: "\f434";
+    font-size: 12px;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+}
+
+.owl-dots .owl-dot span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin: 0 5px;
+    border-radius: 10px;
+
+}
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 60px;
+}
+.owl-dot{
+    outline: none;
+}
+.owl-dots .owl-dot.active img{
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+}
